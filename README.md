@@ -10,11 +10,12 @@ Following are the tech stag used in this webpage-
 * javascript
 
 #here are some photos of webpage
- Landing page-
+
+Landing page-
  
 ![Screenshot (133)](https://user-images.githubusercontent.com/119421686/226537336-de8654b0-857f-4f53-b31b-3a8edc51577f.png)
 
- ON sorting the URL-
+ ON shorting the URL-
  
 ![Screenshot (134)](https://user-images.githubusercontent.com/119421686/226537360-edcc5bd5-9a1d-44a2-9bef-588cddcdda17.png)
 
