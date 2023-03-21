@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="./style/home.css">
+</head>
+<body>
+    <nav>
+        <h1>SHORTENER</h1>
+        <div>
+            <a href="mailto:karanjarwal999@gmail.com">Contact</a>
+            <p>Blog</p>
+            <p>Login</p>
+            <button>Get Started</button>
+        </div>
+        <p>&#x2630</p>
+        <div id="hypern">
+            <p id="closehypern">&#x2613</p>
+            <a href="mailto:karanjarwal999@gmail.com">Contact</a>
+            <p>Blog</p>
+            <p>Login</p>
+            <button>Get Started</button> 
+        </div>
+    </nav>
+    <main>
+        <h1>URL Stortener <br id="linebreak"> for  <span id="auto"></span></h1>
+        <div id="inputdiv">
+            <input type="text" id="urlinput" placeholder="🔗 Paste your long URL">
+            <button id="submit">Shorten</button>
+        </div>
+        <p id="message">Lorem ipsum dolor, sit amet consectetur </p>
+        <div id='operation_button'>
+            <button id="copyurl">Copy</button>
+            <button id="openurl">Open</button>
+        </div>
+    </main>
+</body>
+<script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+<script>
+    var typed=new Typed('#auto',{
+        strings:['Sharing','Texting','Branding','Marketing','Social Media'],
+        typeSpeed:150,
+        backSpeed:150,
+        loop:true
+    })
+</script>
+<script src="./script/home.js"></script>
+</html>
